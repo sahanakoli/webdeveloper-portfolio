@@ -124,6 +124,9 @@ nav a{
     border-radius: 5px;
     background: #FFF;
     box-shadow:0px 6px 50px 0px ;
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
 }
 .skill-description{
     color: #757575;
@@ -138,6 +141,7 @@ nav a{
 .resume-container{
     display: flex;
     gap: 50px;
+    
     
 }
 .resume-item-title{
@@ -167,7 +171,24 @@ margin-top: 0px;
 /* footer style */
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
+}
+.social-links a{
+   margin-right: 25px;
+}
+.section-title{
+    margin-right: 35px;
+}
+.contact input[type=text],.contact input[type="email"],
+textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
 }
